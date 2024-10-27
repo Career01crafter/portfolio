@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">My Portfolio</label>
+        <ul>
+          <li class="nav-item">
+            <a class="active" href="#">
+              <i class="fa-solid fa-house-chimney icon"></i>
+              <span class="tooltip">Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa-solid fa-user icon"></i>
+              <span class="tooltip">About</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa-solid fa-book-open icon"></i>
+              <span class="tooltip">Education</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa-brands fa-stack-overflow icon"></i>
+              <span class="tooltip">Skills</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa-solid fa-laptop-code icon"></i>
+              <span class="tooltip">Projects</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa-solid fa-address-book icon"></i>
+              <span class="tooltip">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <div class="hero">
+          <h1>Narmeen Asghar</h1>
+          <h3>
+            I'm a
+            <span style="--i: 2" data-text="Full-Stack Developer">
+              Full-Stack Developer
+            </span>
+            <span style="--i: 1" data-text="Web Developer">
+              Web Developer
+            </span>
+          </h3>
+          <p>
+            I believe, "Exploring the future one algorithm at a time,
+            <br />
+            because <u><i>AI</i></u> and <u><i>WEB DEVELOPMENT</i></u> is the
+            language of tomorrow"
+          </p>
+        </div>
+        <div class="image">
+          <img src="images/image.webp" alt="profile-picture" />
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h1>
+          <u>About Me</u>
+        </h1>
+
+        <p>
+          As a passionate <span>Full-Stack Developer</span> and
+          <span>Web Developer</span>, I thrive on turning ideas into reality
+          through innovative web solutions. With a solid foundation in both
+          front-end and back-end technologies, I am skilled at crafting seamless
+          user experiences while ensuring robust functionality.
+        </p>
+        <p>
+          In addition to my development expertise, I have recently embarked on a
+          journey into the realm of <span>Artificial Intelligence</span>. I am
+          excited about leveraging AI to enhance web applications, automate
+          processes, and deliver smarter solutions. This ongoing exploration
+          allows me to stay at the forefront of technology and deliver
+          cutting-edge features to my projects.
+        </p>
+        <p>
+          My goal is to create impactful digital experiences that empower users
+          and drive business success. I believe in continuous learning and
+          collaboration, and I am always eager to take on new challenges that
+          push my boundaries.
+        </p>
+      </section>
+
+      <section class="education" id="education">
+        <h1>
+          <u>Education</u>
+        </h1>
+        <p>
+          <span>Matriculation</span>
+          <br />
+          in computer science: "Unlocking the digital world, fostering criticial
+          thinking and equipping students with the skills to innovate and thrive
+          in a tech-driven future"
+        </p>
+        <p>
+          <span>Intermediate</span>
+          <br />
+          in pre-engineering: "Building a store foundation in math and science,
+          igniting creativity and preparing aspiring engineers to solve
+          real-world challenges"
+        </p>
+        <p>
+          <span>Developer Education</span>
+          <br />
+          (On Going) cultivating problem solvers and innovators, where coding
+          skills meet creativity, empowering the next generation to shape the
+          digital landscape"
+        </p>
+      </section>
+
+      <section class="skills" id="skills">
+        <h1>
+          <u>Skills</u>
+        </h1>
+        <div class="parent">
+          <div class="card">
+            <h4>HTML</h4>
+            <p>Building the backbone of websites with clean, semantic markup</p>
+          </div>
+          <div class="card">
+            <h4>CSS</h4>
+            <p>Transforming ideas into stunning designs with stylish layouts</p>
+          </div>
+          <div class="card">
+            <h4>JavaScript</h4>
+            <p>
+              Bringing interactivity and dynamic features to web applications
+            </p>
+          </div>
+          <div class="card">
+            <h4>TypeScript</h4>
+            <p>Enhancing JavaScript with type safety for robust code</p>
+          </div>
+          <div class="card">
+            <h4>Next Js</h4>
+            <p>Building fast, server-rendered React applications with ease</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h1>
+          <u>Projects</u>
+        </h1>
+        <div class="cardbox">
+          <div class="card">
+            <img
+              src="images/Typescript.png"
+              alt="typescript"
+              class="picture"
+              height="100px"
+              width="150px"
+            />
+            <p>
+              I have developed innovative projects using TypeScript, each
+              project focuses on code equality, maintainability and performance
+              and also TS advance features helped me to do it.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="/images/htmlCss.webp"
+              alt="html-css"
+              class="picture"
+              height="100px"
+              width="150px"
+            />
+            <p>
+              I have created a variety of reponsive web pages using HTML and
+              CSS, and enhance aesthetics and usability while adhering to best
+              practices in web development.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="images/nextjs.webp"
+              alt="nextjs"
+              class="picture"
+              height="100px"
+              width="150px"
+            />
+            <p>
+              I have developed few projects on NextJS and also i'm actively
+              learning NextJs to deepen my understanding of its features and
+              capabilities.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="contact" id="contact">
+        <h1>
+          <u>Contact Me</u>
+        </h1>
+        <div class="container">
+          <form action="https://www.example.com/contact.php" method="post">
+            <fieldset>
+              <legend>Get in Touch:</legend>
+
+              <label>
+                Your Name:
+                <input type="text" name="name" required maxlength="30" />
+              </label>
+
+              <label>
+                Email:
+                <input type="email" name="email" required maxlength="50" />
+              </label>
+
+              <label>
+                Phone Number:
+                <input type="tel" name="phone" required maxlength="15" />
+              </label>
+
+              <label>
+                Message:
+                <textarea name="message" required rows="5"></textarea>
+              </label>
+
+              <input type="submit" value="Send Message" />
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
